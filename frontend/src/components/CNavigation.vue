@@ -1,5 +1,5 @@
 <template>
-<div class="font-h1">
+<div class="font-h1 pb-16">
       <nav
         class="
           container
@@ -21,7 +21,7 @@
             "
             >
             <h2>Foodsteps</h2>
-            <h2 class="text-gray-400 text-base font-medium">Är kulinaresch Entdeckungsrees</h2>
+            <h3 class="text-gray-400 font-medium">Är kulinaresch Entdeckungsrees</h3>
           </router-link>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -60,22 +60,27 @@
           "
         >
           <router-link to="/" class="nav-link">
-            <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+            <li>
             Home
           </li>
           </router-link>
           <router-link to="/diekrech" class="nav-link">
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li>
             De Wee
           </li>
           </router-link>
+           <router-link to="/team" class="nav-link">
+          <li>
+            Ekipp
+          </li>
+          </router-link>
           <router-link to="/contact" class="nav-link">
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li>
             Kontakt
           </li>
           </router-link>
           <router-link to="/" class="nav-link">
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li>
              Nëtzlech Links
           </li>
           </router-link>
