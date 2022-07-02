@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+  <CNavigation></CNavigation>
+ 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import CNavigation from './components/CNavigation.vue';
 
 export default {
-  name: 'App',
+  data() {
+    return {
+      showMenu: false,
+    };
+  },
   components: {
-    HelloWorld
+    CNavigation
   }
-}
+};
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+
+@import url('http://fonts.cdnfonts.com/css/hoefler-text');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap');
+
+
 </style>
+                
