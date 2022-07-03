@@ -2,12 +2,13 @@
   
   <CNavigation></CNavigation>
   <div class="my-16"></div>
- 
+  <CFooter></CFooter>
 </template>
 
 <script>
 
 import CNavigation from './components/CNavigation.vue';
+import CFooter from './components/CFooter.vue'
 
 export default {
   data() {
@@ -16,7 +17,8 @@ export default {
     };
   },
   components: {
-    CNavigation
+    CNavigation,
+    CFooter
   }
 };
 </script>

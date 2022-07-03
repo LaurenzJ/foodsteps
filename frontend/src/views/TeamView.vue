@@ -17,8 +17,8 @@
           
           <div class="grid lg:place-items-start lg:w-1/2 space-y-16">
             <h2 class="text-center 2xl:w-2/3 w-full">Eis Geschicht</h2>
-           <p class="text-center 2xl:w-2/3 w-full text-xl">Eis Geschicht fänkt Ufank September un, wou mir eis an den Cours d’Optioun vun der Mini-Entreprise ageschriwwen hunn. Mir waren 5 motivéiert Schüler, déi Intressi um detailléierten Fonctionnement vun enger Entreprise gewisen hunn. Mir hunn eis laang den Kapp zerbrach fir eng Iddi ze fannen déi Potenzial huet. Schlussendlech hu mir d’Entscheedung getraff eis vun eiser Leidenschaft, dem Entdecken vun der Natur, leden ze loossen fir och aneren Leit dës Freed méi no ze bréngen. Mir hunn an e puer Méint eis Iddi verwierklecht an sou eise Service an d’Liewen geruff. Mat eiser kulinarescher Schnitzeljuegd wëllen mer Familljen mat Kanner eng flott Fräizäit-Aktivitéit bidden. Eisen éischten Wee geet duerch Dikrech wëll mir hei an d’Schoul ginn an et hei vill schéi Platzen ze entdecken ginn.</p>
-         </div>
+           <p class="text-center 2xl:w-2/3 w-full text-xl">Eis Geschicht fänkt Ufank September 2021 un, wou mir eis an den Cours d’Optioun vun der Mini-Entreprise ageschriwwen hunn. Mir waren 5 motivéiert Schüler, déi Intressi um detailléierten Fonctionnement vun enger Entreprise gewisen hunn. Mir hunn eis laang den Kapp zerbrach fir eng Iddi ze fannen déi Potenzial huet. Schlussendlech hu mir d’Entscheedung getraff eis vun eiser Leidenschaft, dem Entdecken vun der Natur, leden ze loossen fir och aneren Leit dës Freed méi no ze bréngen. Mir hunn an e puer Méint eis Iddi verwierklecht an sou eise Service an d’Liewen geruff. Mat eiser kulinarescher Schnitzeljuegd wëllen mer Familljen mat Kanner eng flott Fräizäit-Aktivitéit bidden. Eisen éischten Wee geet duerch Dikrech wëll mir hei an d’Schoul ginn an et hei vill schéi Platzen ze entdecken ginn.</p>
+          </div>
         </div>
 
         <div class="w-2/5 border-b border-solid border-1 border-black"></div>
@@ -33,7 +33,7 @@
           <div class="grid lg:place-items-start lg:w-1/2">
             <h3 class="text-center text-xl 2xl:w-2/3 w-full pb-2">Máté Magyar</h3>
             <h3 class="text-center text-base font-sans 2xl:w-2/3 w-full pb-6">Chef vun der Entreprise</h3>
-            <p class="text-center 2xl:w-2/3 w-full text-xl">Ech sinn den Maté Magyar an si bei Foodsteps als Chef an als Website-Designer täteg. Ech probéieren dat meescht aus dëser Entreprise raus ze huelen fir mir sou vill wéi méiglech Erfarung fir meng Zukunft unzëeegnen. An menger Fräizäit beschäftegen ech mech vill mat Musek an ginn och mol gären een Tour spadséieren.</p>
+            <p class="text-center 2xl:w-2/3 w-full text-xl">Ech sinn den Máté Magyar an si bei Foodsteps als Chef an als Website-Designer täteg. Ech probéieren dat meescht aus dëser Entreprise raus ze huelen fir mir sou vill wéi méiglech Erfarung fir meng Zukunft unzëeegnen. An menger Fräizäit beschäftegen ech mech vill mat Musek an ginn och mol gären een Tour spadséieren.</p>
           </div>
         </div>
 
@@ -78,9 +78,47 @@
           </div>
         </div>
 
-    </div>
+        
+        <div v-if="isMobile()">
+          <div class="lg:flex lg:space-x-6 space-y-16 grid place-items-center">
+            <div class="grid lg:w-1/2 lg:place-items-center ">
+              <img class="lg:object-fill 2xl:w-2/3 w-full" src="@/assets/images/team/matteo.png" alt="">
+            </div>
 
-    
+            <div class="grid lg:place-items-start lg:w-1/2">
+              <h3 class="text-center text-xl 2xl:w-2/3 w-full pb-2">Mattéo Mercier</h3>
+              <h3 class="text-center text-base font-sans 2xl:w-2/3 w-full pb-6">Comptable vun der Entreprise</h3>
+              <p class="text-center 2xl:w-2/3 w-full text-xl">Ech sinn den Mercier Mattéo an ech sinn mam Lisa deen deen sech ëm d’Finanzen vun eiser Entreprise këmmert. Ech sinn begeeschtert hei an der Entreprise mat ze maachen, well ech an der Iddi vill Potential gesinn. Ech freeën mech un dësem Projet ze schaffen fir Erfarung fir d’Zukunft ze sammelen. Ech spillen an menger Fräizäit Badminton an ginn gären spadséieren vir mech vu mengem Alldag ze entspanen.</p>
+            </div>
+          </div>
+        </div>
+        <div v-else>
+          <div class="lg:flex lg:space-x-6 space-y-16 grid place-items-center">
+            <div class="grid lg:place-items-center lg:w-1/2">
+              <h3 class="text-center text-xl 2xl:w-2/3 w-full pb-2">Mattéo Mercier</h3>
+              <h3 class="text-center text-base font-sans 2xl:w-2/3 w-full pb-6">Comptable vun der Entreprise</h3>
+              <p class="text-center 2xl:w-2/3 w-full text-xl">Ech sinn den Mercier Mattéo an ech sinn mam Lisa deen deen sech ëm d’Finanzen vun eiser Entreprise këmmert. Ech sinn begeeschtert hei an der Entreprise mat ze maachen, well ech an der Iddi vill Potential gesinn. Ech freeën mech un dësem Projet ze schaffen fir Erfarung fir d’Zukunft ze sammelen. Ech spillen an menger Fräizäit Badminton an ginn gären spadséieren vir mech vu mengem Alldag ze entspanen.</p>
+            </div>
+
+            <div class="grid lg:w-1/2 lg:place-items-start ">
+              <img class="lg:object-fill 2xl:w-2/3 w-full" src="@/assets/images/team/matteo.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:flex lg:space-x-6 space-y-16 grid place-items-center">
+          <div class="grid lg:w-1/2 lg:place-items-center ">
+            <img class="lg:object-fill 2xl:w-2/3 w-full" src="@/assets/images/team/emma.png" alt="">
+          </div>
+          
+          <div class="grid lg:place-items-start lg:w-1/2">
+            <h3 class="text-center text-xl 2xl:w-2/3 w-full pb-2">Emma Lutgen</h3>
+            <h3 class="text-center text-base font-sans 2xl:w-2/3 w-full pb-6">Grafik-Designer vun der Entreprise</h3>
+            <p class="text-center 2xl:w-2/3 w-full text-xl">Ech sinn d’Emma an sinn haaptsächlech fir déi visuell Säit vu Foodsteps zoustänneg. Sou hunn ech zesummen mat enger Kolleegin den Otto, eist Maskottchen zum Liewen bruecht. Déi kreativ Säit vu mir ass perfekt vir d’grafesch Aufgaben an der Entreprise ze iwwerhuelen. Ech sinn interesséiert un Grafik Design an sammelen sou Erfarung vir mäi spéidert d’Liewen.</p>
+          </div>
+        </div>
+      <div class="w-2/5 border-b border-solid border-1 border-black"></div>
+    </div>
   </div>
 </template>
 

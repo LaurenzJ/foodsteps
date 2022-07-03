@@ -103,7 +103,7 @@ export default {
 <style>
 
 a.router-link-exact-active {
-    color: green;
+    color: #a9bc93;
 }
 
 </style>
