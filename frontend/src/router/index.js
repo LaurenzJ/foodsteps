@@ -27,6 +27,11 @@ const routes = [
     path: '/diekrech',
     name: 'diekrech',
     component: () => import(/* webpackChunkName: "about" */ '../views/DiekrechView.vue')
+  },
+  {
+    path: '/gallery',
+    name: 'gallery',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GalleryView.vue')
   }
 ]
 

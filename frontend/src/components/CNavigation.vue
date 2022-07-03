@@ -79,9 +79,9 @@
             Kontakt
           </li>
           </router-link>
-          <router-link to="/" class="nav-link">
+          <router-link to="/gallery" class="nav-link">
           <li>
-             Nëtzlech Links
+             Gallery
           </li>
           </router-link>
         </ul>
