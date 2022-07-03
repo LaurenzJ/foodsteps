@@ -1,6 +1,7 @@
 <template>
   
   <CNavigation></CNavigation>
+  <div class="my-16"></div>
  
 </template>
 

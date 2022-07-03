@@ -26,6 +26,12 @@
     h3 {
       @apply font-h1;
       @apply font-extrabold;
+      @apply text-lg;
+    }
+
+    h4 {
+      @apply font-h1;
+      @apply font-extrabold;
       @apply text-sm;
     }
 

@@ -21,7 +21,7 @@
             "
             >
             <h2>Foodsteps</h2>
-            <h3 class="text-gray-400 font-medium">Är kulinaresch Entdeckungsrees</h3>
+            <h4 class="text-gray-400 font-medium">Är kulinaresch Entdeckungsrees</h4>
           </router-link>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">
