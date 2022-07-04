@@ -9,5 +9,5 @@ module.exports = {
       'sans': 'Hoefler Text'
     }
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
 }
