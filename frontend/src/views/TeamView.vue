@@ -155,7 +155,6 @@
             sinn interesséiert un Grafik Design an sammelen sou Erfarung vir mäi spéidert d’Liewen.</p>
         </div>
       </div>
-      <div class="w-2/5 border-b border-solid border-1 border-black"></div>
     </div>
   </div>
 </template>
