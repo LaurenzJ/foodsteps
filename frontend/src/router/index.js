@@ -32,6 +32,16 @@ const routes = [
     path: '/gallery',
     name: 'gallery',
     component: () => import(/* webpackChunkName: "about" */ '../views/GalleryView.vue')
+  },
+  {
+    path: '/newsletter',
+    name: 'newsletter',
+    component: () => import(/* webpackChunkName: "about" */ '../views/NewsletterView.vue')
+  },
+  {
+    path: '/site-notice',
+    name: 'site-notice',
+    component: () => import(/* webpackChunkName: "about" */ '../views/SiteNoticeView.vue')
   }
 ]
 
