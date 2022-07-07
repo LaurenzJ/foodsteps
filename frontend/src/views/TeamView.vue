@@ -155,7 +155,7 @@
             sinn interesséiert un Grafik Design an sammelen sou Erfarung vir mäi spéidert d’Liewen.</p>
         </div>
       </div>
-    </div>
+      </div>
   </div>
 </template>
 
