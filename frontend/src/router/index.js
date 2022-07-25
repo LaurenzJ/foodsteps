@@ -47,6 +47,21 @@ const routes = [
     path: '/site-notice',
     name: 'site-notice',
     component: () => import(/* webpackChunkName: "about" */ '../views/SiteNoticeView.vue')
+  },
+  {
+    path: '/privacy-policy',
+    name: 'privacy-policy',
+    component: () => import(/* webpackChunkName: "about" */ '../views/PrivacyPolicyView.vue')
+  },
+  {
+    path: '/agb',
+    name: 'agb',
+    component: () => import(/* webpackChunkName: "about" */ '../views/AGBView.vue')
+  },
+  {
+    path: '/product/:id',
+    name: 'product',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ProductView.vue')
   }
 ]
 

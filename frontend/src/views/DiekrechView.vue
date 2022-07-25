@@ -47,6 +47,7 @@
       <div>
         <div class="text-center w-full">
           <button
+            onclick="location.href='/product/diekrech'"
             class="shadow bg-[#a9bc93] hover:bg-green-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 my-4 px-4 rounded"
             type="button">
             Kafen
