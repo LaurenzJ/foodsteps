@@ -16,7 +16,7 @@
         
       </div>
       <div class="lg:w-2/5 w-full px-4">
-        <p class="text-center text-xl">Beim Klick op “Kafen” kënnt dir äer Tickets reservéiren fir dës flott Schnitzeljuedg duerch Dikrech op d’eegen Fauscht ze maachen. Nom Bezuelen kritt dir innerhalb vun 48 Stonnen (Bezuelung per Kreditkaart/Paypal) déi ganz detailléiert Documentatioun per Email geschéckt. Duerno kënnt dir eis kulinaresch Wanderung zu all Moment maachen wou dir Loscht hudd.</p>      
+        <p class="text-center text-xl">Beim Klick op <a href="/product/diekrech" class="underline text-green">“Kafen”</a> kënnt dir äer Tickets reservéiren fir dës flott Schnitzeljuedg duerch Dikrech op d’eegen Fauscht ze maachen. Nom Bezuelen kritt dir innerhalb vun 48 Stonnen (Bezuelung per Kreditkaart/Paypal) déi ganz detailléiert Documentatioun per Email geschéckt. Duerno kënnt dir eis kulinaresch Wanderung zu all Moment maachen wou dir Loscht hudd.</p>      
       </div>
       <div class="w-2/5 border-b border-solid border-1 border-black"></div>
       <h2>Informatiounen zum Wee</h2>
