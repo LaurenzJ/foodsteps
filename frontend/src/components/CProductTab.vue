@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full max-w-screen-md px-2 py-16 sm:px-0">
+  <div class="w-full  px-2 py-16 sm:px-0">
     <TabGroup>
-      <TabList class="flex space-x-1 rounded-xl bg-green p-1">
+      <TabList class="flex max-w-screen-md space-x-1 rounded-xl bg-green p-1">
         <Tab
           v-for="category in Object.keys(categories)"
           as="template"
@@ -27,7 +27,7 @@
           v-for="(posts, idx) in Object.values(categories)"
           :key="idx"
           :class="[
-            'rounded-xl bg-white p-3',
+            'rounded-xl bg-white p-3 text-justify',
             'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
           ]"
         >

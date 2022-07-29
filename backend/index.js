@@ -6,7 +6,9 @@ const Product = require('./models/Product')
 
 require('dotenv').config()
 
-mongoose.connect(process.env.MONGO_STRING, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGO_STRING, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+    console.log('Connected to MongoDB')
+})
 
 const app = express()
 

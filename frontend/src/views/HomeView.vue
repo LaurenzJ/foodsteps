@@ -29,7 +29,9 @@
           <div class="text-center 2xl:w-2/3 w-full">
             <button
               class="shadow bg-[#a9bc93] hover:bg-green-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 my-4 px-4 rounded"
-              type="button">
+              type="button"
+              onclick="location.href='/product/diekrech'"
+              >
               Kafen
             </button>
           </div>

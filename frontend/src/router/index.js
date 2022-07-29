@@ -13,7 +13,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/TeamView.vue')
+    component: () => import('../views/TeamView.vue')
   },
   {
     path: '/contact',
@@ -21,48 +21,58 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/ContactView.vue')
+    component: () => import('../views/ContactView.vue')
   },
   {
     path: '/diekrech',
     name: 'diekrech',
-    component: () => import(/* webpackChunkName: "about" */ '../views/DiekrechView.vue')
+    component: () => import('../views/DiekrechView.vue')
   },
   {
     path: '/gallery',
     name: 'gallery',
-    component: () => import(/* webpackChunkName: "about" */ '../views/GalleryView.vue')
+    component: () => import('../views/GalleryView.vue')
   },
   {
     path: '/faq',
     name: 'faq',
-    component: () => import(/* webpackChunkName: "about" */ '../views/FAQView.vue')
+    component: () => import('../views/FAQView.vue')
   },
   {
     path: '/newsletter',
     name: 'newsletter',
-    component: () => import(/* webpackChunkName: "about" */ '../views/NewsletterView.vue')
+    component: () => import('../views/NewsletterView.vue')
   },
   {
     path: '/site-notice',
     name: 'site-notice',
-    component: () => import(/* webpackChunkName: "about" */ '../views/SiteNoticeView.vue')
+    component: () => import('../views/SiteNoticeView.vue')
   },
   {
     path: '/privacy-policy',
     name: 'privacy-policy',
-    component: () => import(/* webpackChunkName: "about" */ '../views/PrivacyPolicyView.vue')
+    component: () => import('../views/PrivacyPolicyView.vue')
   },
   {
     path: '/agb',
     name: 'agb',
-    component: () => import(/* webpackChunkName: "about" */ '../views/AGBView.vue')
+    component: () => import('../views/AGBView.vue')
   },
   {
     path: '/product/:id',
     name: 'product',
-    component: () => import(/* webpackChunkName: "about" */ '../views/ProductView.vue')
-  }
+    component: () => import('../views/ProductView.vue')
+  },
+  {
+    path: '/admin',
+    name: 'admin',
+    component: () => import('../views/admin/AHomeView.vue'),
+  },
+  {
+    path: '/admin/products',
+    name: 'admin-products',
+    component: () => import('../views/admin/AProductsView.vue'),
+  },
 ]
 
 const router = createRouter({
